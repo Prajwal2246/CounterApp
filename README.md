@@ -1,12 +1,78 @@
-# React + Vite
+# Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application built with **Vite** that demonstrates the use of React Hooks (`useState`) for basic state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Increment the counter
+- Decrement the counter (with lower limit 0)
+- Reset the counter
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React  
+- Vite  
+- JavaScript (ES6+)  
+- CSS
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ └── Counter.jsx
+├── App.jsx # Root component
+├── main.jsx # Entry point
+public/
+├── index.html
+├── ...
+package.json # Dependencies & scripts
+vite.config.js # Vite configuration
+README.md
+
+
+---
+
+## ⚡ Getting Started
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Prajwal2246/CounterApp.git
+   cd CounterApp
+
+
+Install dependencies
+
+npm install
+
+
+Run the app
+
+npm run dev
+
+
+Open your browser and go to http://localhost:3000 (or whatever Vite shows in terminal) to view the app.
+
+📸 
+
+✅ What I Learned
+
+Using useState for state in functional components
+
+Handling click events in React
+
+Basic component structure and styling with CSS
+
+📌 To Improve / Future Ideas
+
+Add input to adjust the “step” by which counter increments/decrements
+
+Prevent decrement going below zero
+
+Add animations for buttons
+
+Persist count in localStorage so value remains on refresh
